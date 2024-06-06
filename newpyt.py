@@ -81,6 +81,10 @@ def get_played():
 
     #Update dữ liệu cho file .csv có trong máy 
     test1.to_csv(r'C:\\Users\\triet\\\Desktop\\2nd.csv', mode='a', index= False, header= False, encoding='utf-8') 
+    #Thay thế các dữ liệu bị lặp
+    dup = pd.read_csv(r'C:\\Users\\triet\\\Desktop\\2nd.csv')
+    dup.drop_duplicates(subset='Date&time played', keep='first')
+    dup.to_csv(r'C:\\Users\\triet\\\Desktop\\2nd.csv', mode='a', index= False, header= False, encoding='utf-8')
     return redirect('/finish')
 
 #Màn hình thông báo pull JSON từ API thành công
