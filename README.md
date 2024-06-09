@@ -1,7 +1,7 @@
 # spotify
 Spotify Listening History with Spotify API
 
-- My first project in attempt to automate the progress of pulling data from Spotify API and visualize them with Excel Pivot Table. 
+- My first project in attempt to automate the progress of pulling data from Spotify API and visualize them with Excel Pivot Table and Power BI. 
 - In the future I may cooporate AI to read my listening history and give me my overall mood that week.
 - newpyt.py is the script to pull data from Spotify API so run that first, then run autoclick.py to automate the clicking progress (when Authorize window pops up)
 - Because in autoclick.py I included a code to run Selenium with my Chrome Profile, which logged in to my Spotify account (smooth out the Authorize progress) so to things work out for you, you have to find your own Chrome Proflie and edit the code.
@@ -12,4 +12,6 @@ I will include a code that log in automatically in the future. I wrote this code
 I will include some images to give you a better understanding about that sheet.
 
 6/9/2024:
-- Replace Visualize.xlsx file with Visualize.pbiz, a Power Bi file to improve visualization.
+- Replaced Visualize.xlsx file with Visualize.pbiz, a Power Bi file to improve visualization.
+- Added a image showing active dashboard in .pbiz file
+- Added new column contains album image urls in database file(2nd.csv) so I had to delete previous records.
