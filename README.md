@@ -11,3 +11,5 @@ I will include a code that log in automatically in the future. I wrote this code
 - In Visualize.xlsx in the Reminder sheet, the date is displayed thanks to a new measure I added into Power Pivot so that sheet may not display properly.
 I will include some images to give you a better understanding about that sheet.
 
+6/9/2024:
+- Replace Visualize.xlsx file with Visualize.pbiz, a Power Bi file to improve visualization.
