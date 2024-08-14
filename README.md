@@ -15,5 +15,6 @@ I will include some images to give you a better understanding about that sheet.
 - Replaced Visualize.xlsx file with Visualize.pbiz, a Power Bi file to improve visualization.
 - Added an image showing active dashboard in .pbix file
 - Added new column contains album image urls in database file(2nd.csv) so I had to delete previous records.
+
 14/8/2024
 - Added an image showing dashboard after 1 month. I did not record my listening history in July because I cancelled my subscription.
